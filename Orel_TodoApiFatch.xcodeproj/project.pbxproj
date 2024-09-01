@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		8BCB8BF72C84CB8A005A2DCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB8BF62C84CB8A005A2DCA /* AppDelegate.swift */; };
 		8BCB8BF92C84CB8A005A2DCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB8BF82C84CB8A005A2DCA /* SceneDelegate.swift */; };
-		8BCB8BFB2C84CB8A005A2DCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB8BFA2C84CB8A005A2DCA /* ViewController.swift */; };
+		8BCB8BFB2C84CB8A005A2DCA /* FirstScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB8BFA2C84CB8A005A2DCA /* FirstScreenViewController.swift */; };
 		8BCB8BFE2C84CB8A005A2DCA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8BCB8BFD2C84CB8A005A2DCA /* Base */; };
 		8BCB8C002C84CB8C005A2DCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BCB8BFF2C84CB8C005A2DCA /* Assets.xcassets */; };
 		8BCB8C032C84CB8C005A2DCA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8BCB8C022C84CB8C005A2DCA /* Base */; };
 		8BCB8C0E2C84CB8C005A2DCA /* Orel_TodoApiFatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB8C0D2C84CB8C005A2DCA /* Orel_TodoApiFatchTests.swift */; };
 		8BCB8C182C84CB8C005A2DCA /* Orel_TodoApiFatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB8C172C84CB8C005A2DCA /* Orel_TodoApiFatchUITests.swift */; };
 		8BCB8C1A2C84CB8C005A2DCA /* Orel_TodoApiFatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB8C192C84CB8C005A2DCA /* Orel_TodoApiFatchUITestsLaunchTests.swift */; };
+		8BCB8C2A2C84D3C4005A2DCA /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB8C292C84D3C4005A2DCA /* Todo.swift */; };
+		8BCB8C2C2C84D450005A2DCA /* TodoApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB8C2B2C84D450005A2DCA /* TodoApi.swift */; };
+		8BCB8C312C84DF33005A2DCA /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB8C302C84DF33005A2DCA /* TodoTableViewCell.swift */; };
+		8BCB8C332C84E2B0005A2DCA /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB8C322C84E2B0005A2DCA /* SecondScreenViewController.swift */; };
+		8BCB8C352C84E2DD005A2DCA /* TodoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB8C342C84E2DD005A2DCA /* TodoDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,7 @@
 		8BCB8BF32C84CB8A005A2DCA /* Orel_TodoApiFatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orel_TodoApiFatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BCB8BF62C84CB8A005A2DCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BCB8BF82C84CB8A005A2DCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8BCB8BFA2C84CB8A005A2DCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BCB8BFA2C84CB8A005A2DCA /* FirstScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenViewController.swift; sourceTree = "<group>"; };
 		8BCB8BFD2C84CB8A005A2DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BCB8BFF2C84CB8C005A2DCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BCB8C022C84CB8C005A2DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		8BCB8C132C84CB8C005A2DCA /* Orel_TodoApiFatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Orel_TodoApiFatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BCB8C172C84CB8C005A2DCA /* Orel_TodoApiFatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orel_TodoApiFatchUITests.swift; sourceTree = "<group>"; };
 		8BCB8C192C84CB8C005A2DCA /* Orel_TodoApiFatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orel_TodoApiFatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8BCB8C292C84D3C4005A2DCA /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		8BCB8C2B2C84D450005A2DCA /* TodoApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoApi.swift; sourceTree = "<group>"; };
+		8BCB8C302C84DF33005A2DCA /* TodoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
+		8BCB8C322C84E2B0005A2DCA /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
+		8BCB8C342C84E2DD005A2DCA /* TodoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +109,12 @@
 		8BCB8BF52C84CB8A005A2DCA /* Orel_TodoApiFatch */ = {
 			isa = PBXGroup;
 			children = (
+				8BCB8C2D2C84DED7005A2DCA /* utils */,
+				8BCB8C282C84CBC4005A2DCA /* ViewControllers */,
+				8BCB8C272C84CBBB005A2DCA /* Network */,
+				8BCB8C262C84CBB2005A2DCA /* Models */,
 				8BCB8BF62C84CB8A005A2DCA /* AppDelegate.swift */,
 				8BCB8BF82C84CB8A005A2DCA /* SceneDelegate.swift */,
-				8BCB8BFA2C84CB8A005A2DCA /* ViewController.swift */,
 				8BCB8BFC2C84CB8A005A2DCA /* Main.storyboard */,
 				8BCB8BFF2C84CB8C005A2DCA /* Assets.xcassets */,
 				8BCB8C012C84CB8C005A2DCA /* LaunchScreen.storyboard */,
@@ -125,6 +138,40 @@
 				8BCB8C192C84CB8C005A2DCA /* Orel_TodoApiFatchUITestsLaunchTests.swift */,
 			);
 			path = Orel_TodoApiFatchUITests;
+			sourceTree = "<group>";
+		};
+		8BCB8C262C84CBB2005A2DCA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8BCB8C292C84D3C4005A2DCA /* Todo.swift */,
+				8BCB8C342C84E2DD005A2DCA /* TodoDetails.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8BCB8C272C84CBBB005A2DCA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8BCB8C2B2C84D450005A2DCA /* TodoApi.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8BCB8C282C84CBC4005A2DCA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8BCB8BFA2C84CB8A005A2DCA /* FirstScreenViewController.swift */,
+				8BCB8C322C84E2B0005A2DCA /* SecondScreenViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8BCB8C2D2C84DED7005A2DCA /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				8BCB8C302C84DF33005A2DCA /* TodoTableViewCell.swift */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +305,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BCB8BFB2C84CB8A005A2DCA /* ViewController.swift in Sources */,
+				8BCB8C352C84E2DD005A2DCA /* TodoDetails.swift in Sources */,
+				8BCB8C2C2C84D450005A2DCA /* TodoApi.swift in Sources */,
+				8BCB8BFB2C84CB8A005A2DCA /* FirstScreenViewController.swift in Sources */,
 				8BCB8BF72C84CB8A005A2DCA /* AppDelegate.swift in Sources */,
+				8BCB8C312C84DF33005A2DCA /* TodoTableViewCell.swift in Sources */,
+				8BCB8C332C84E2B0005A2DCA /* SecondScreenViewController.swift in Sources */,
 				8BCB8BF92C84CB8A005A2DCA /* SceneDelegate.swift in Sources */,
+				8BCB8C2A2C84D3C4005A2DCA /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
