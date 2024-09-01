@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BCB8BF72C84CB8A005A2DCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB8BF62C84CB8A005A2DCA /* AppDelegate.swift */; };
+		8BCB8BF92C84CB8A005A2DCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB8BF82C84CB8A005A2DCA /* SceneDelegate.swift */; };
+		8BCB8BFB2C84CB8A005A2DCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB8BFA2C84CB8A005A2DCA /* ViewController.swift */; };
+		8BCB8BFE2C84CB8A005A2DCA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8BCB8BFD2C84CB8A005A2DCA /* Base */; };
+		8BCB8C002C84CB8C005A2DCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BCB8BFF2C84CB8C005A2DCA /* Assets.xcassets */; };
+		8BCB8C032C84CB8C005A2DCA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8BCB8C022C84CB8C005A2DCA /* Base */; };
+		8BCB8C0E2C84CB8C005A2DCA /* Orel_TodoApiFatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB8C0D2C84CB8C005A2DCA /* Orel_TodoApiFatchTests.swift */; };
+		8BCB8C182C84CB8C005A2DCA /* Orel_TodoApiFatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB8C172C84CB8C005A2DCA /* Orel_TodoApiFatchUITests.swift */; };
+		8BCB8C1A2C84CB8C005A2DCA /* Orel_TodoApiFatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB8C192C84CB8C005A2DCA /* Orel_TodoApiFatchUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BCB8C0A2C84CB8C005A2DCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BCB8BEB2C84CB8A005A2DCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BCB8BF22C84CB8A005A2DCA;
+			remoteInfo = Orel_TodoApiFatch;
+		};
+		8BCB8C142C84CB8C005A2DCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BCB8BEB2C84CB8A005A2DCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BCB8BF22C84CB8A005A2DCA;
+			remoteInfo = Orel_TodoApiFatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BCB8BF32C84CB8A005A2DCA /* Orel_TodoApiFatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orel_TodoApiFatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BCB8BF62C84CB8A005A2DCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BCB8BF82C84CB8A005A2DCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8BCB8BFA2C84CB8A005A2DCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BCB8BFD2C84CB8A005A2DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BCB8BFF2C84CB8C005A2DCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BCB8C022C84CB8C005A2DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BCB8C042C84CB8C005A2DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BCB8C092C84CB8C005A2DCA /* Orel_TodoApiFatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Orel_TodoApiFatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BCB8C0D2C84CB8C005A2DCA /* Orel_TodoApiFatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orel_TodoApiFatchTests.swift; sourceTree = "<group>"; };
+		8BCB8C132C84CB8C005A2DCA /* Orel_TodoApiFatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Orel_TodoApiFatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BCB8C172C84CB8C005A2DCA /* Orel_TodoApiFatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orel_TodoApiFatchUITests.swift; sourceTree = "<group>"; };
+		8BCB8C192C84CB8C005A2DCA /* Orel_TodoApiFatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orel_TodoApiFatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BCB8BF02C84CB8A005A2DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BCB8C062C84CB8C005A2DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BCB8C102C84CB8C005A2DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BCB8BEA2C84CB8A005A2DCA = {
+			isa = PBXGroup;
+			children = (
+				8BCB8BF52C84CB8A005A2DCA /* Orel_TodoApiFatch */,
+				8BCB8C0C2C84CB8C005A2DCA /* Orel_TodoApiFatchTests */,
+				8BCB8C162C84CB8C005A2DCA /* Orel_TodoApiFatchUITests */,
+				8BCB8BF42C84CB8A005A2DCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BCB8BF42C84CB8A005A2DCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BCB8BF32C84CB8A005A2DCA /* Orel_TodoApiFatch.app */,
+				8BCB8C092C84CB8C005A2DCA /* Orel_TodoApiFatchTests.xctest */,
+				8BCB8C132C84CB8C005A2DCA /* Orel_TodoApiFatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BCB8BF52C84CB8A005A2DCA /* Orel_TodoApiFatch */ = {
+			isa = PBXGroup;
+			children = (
+				8BCB8BF62C84CB8A005A2DCA /* AppDelegate.swift */,
+				8BCB8BF82C84CB8A005A2DCA /* SceneDelegate.swift */,
+				8BCB8BFA2C84CB8A005A2DCA /* ViewController.swift */,
+				8BCB8BFC2C84CB8A005A2DCA /* Main.storyboard */,
+				8BCB8BFF2C84CB8C005A2DCA /* Assets.xcassets */,
+				8BCB8C012C84CB8C005A2DCA /* LaunchScreen.storyboard */,
+				8BCB8C042C84CB8C005A2DCA /* Info.plist */,
+			);
+			path = Orel_TodoApiFatch;
+			sourceTree = "<group>";
+		};
+		8BCB8C0C2C84CB8C005A2DCA /* Orel_TodoApiFatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BCB8C0D2C84CB8C005A2DCA /* Orel_TodoApiFatchTests.swift */,
+			);
+			path = Orel_TodoApiFatchTests;
+			sourceTree = "<group>";
+		};
+		8BCB8C162C84CB8C005A2DCA /* Orel_TodoApiFatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8BCB8C172C84CB8C005A2DCA /* Orel_TodoApiFatchUITests.swift */,
+				8BCB8C192C84CB8C005A2DCA /* Orel_TodoApiFatchUITestsLaunchTests.swift */,
+			);
+			path = Orel_TodoApiFatchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BCB8BF22C84CB8A005A2DCA /* Orel_TodoApiFatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BCB8C1D2C84CB8C005A2DCA /* Build configuration list for PBXNativeTarget "Orel_TodoApiFatch" */;
+			buildPhases = (
+				8BCB8BEF2C84CB8A005A2DCA /* Sources */,
+				8BCB8BF02C84CB8A005A2DCA /* Frameworks */,
+				8BCB8BF12C84CB8A005A2DCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Orel_TodoApiFatch;
+			productName = Orel_TodoApiFatch;
+			productReference = 8BCB8BF32C84CB8A005A2DCA /* Orel_TodoApiFatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BCB8C082C84CB8C005A2DCA /* Orel_TodoApiFatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BCB8C202C84CB8C005A2DCA /* Build configuration list for PBXNativeTarget "Orel_TodoApiFatchTests" */;
+			buildPhases = (
+				8BCB8C052C84CB8C005A2DCA /* Sources */,
+				8BCB8C062C84CB8C005A2DCA /* Frameworks */,
+				8BCB8C072C84CB8C005A2DCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BCB8C0B2C84CB8C005A2DCA /* PBXTargetDependency */,
+			);
+			name = Orel_TodoApiFatchTests;
+			productName = Orel_TodoApiFatchTests;
+			productReference = 8BCB8C092C84CB8C005A2DCA /* Orel_TodoApiFatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BCB8C122C84CB8C005A2DCA /* Orel_TodoApiFatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BCB8C232C84CB8C005A2DCA /* Build configuration list for PBXNativeTarget "Orel_TodoApiFatchUITests" */;
+			buildPhases = (
+				8BCB8C0F2C84CB8C005A2DCA /* Sources */,
+				8BCB8C102C84CB8C005A2DCA /* Frameworks */,
+				8BCB8C112C84CB8C005A2DCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BCB8C152C84CB8C005A2DCA /* PBXTargetDependency */,
+			);
+			name = Orel_TodoApiFatchUITests;
+			productName = Orel_TodoApiFatchUITests;
+			productReference = 8BCB8C132C84CB8C005A2DCA /* Orel_TodoApiFatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BCB8BEB2C84CB8A005A2DCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8BCB8BF22C84CB8A005A2DCA = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					8BCB8C082C84CB8C005A2DCA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8BCB8BF22C84CB8A005A2DCA;
+					};
+					8BCB8C122C84CB8C005A2DCA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8BCB8BF22C84CB8A005A2DCA;
+					};
+				};
+			};
+			buildConfigurationList = 8BCB8BEE2C84CB8A005A2DCA /* Build configuration list for PBXProject "Orel_TodoApiFatch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BCB8BEA2C84CB8A005A2DCA;
+			productRefGroup = 8BCB8BF42C84CB8A005A2DCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BCB8BF22C84CB8A005A2DCA /* Orel_TodoApiFatch */,
+				8BCB8C082C84CB8C005A2DCA /* Orel_TodoApiFatchTests */,
+				8BCB8C122C84CB8C005A2DCA /* Orel_TodoApiFatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BCB8BF12C84CB8A005A2DCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BCB8C002C84CB8C005A2DCA /* Assets.xcassets in Resources */,
+				8BCB8C032C84CB8C005A2DCA /* Base in Resources */,
+				8BCB8BFE2C84CB8A005A2DCA /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BCB8C072C84CB8C005A2DCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BCB8C112C84CB8C005A2DCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BCB8BEF2C84CB8A005A2DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BCB8BFB2C84CB8A005A2DCA /* ViewController.swift in Sources */,
+				8BCB8BF72C84CB8A005A2DCA /* AppDelegate.swift in Sources */,
+				8BCB8BF92C84CB8A005A2DCA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BCB8C052C84CB8C005A2DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BCB8C0E2C84CB8C005A2DCA /* Orel_TodoApiFatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BCB8C0F2C84CB8C005A2DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BCB8C1A2C84CB8C005A2DCA /* Orel_TodoApiFatchUITestsLaunchTests.swift in Sources */,
+				8BCB8C182C84CB8C005A2DCA /* Orel_TodoApiFatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BCB8C0B2C84CB8C005A2DCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BCB8BF22C84CB8A005A2DCA /* Orel_TodoApiFatch */;
+			targetProxy = 8BCB8C0A2C84CB8C005A2DCA /* PBXContainerItemProxy */;
+		};
+		8BCB8C152C84CB8C005A2DCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BCB8BF22C84CB8A005A2DCA /* Orel_TodoApiFatch */;
+			targetProxy = 8BCB8C142C84CB8C005A2DCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BCB8BFC2C84CB8A005A2DCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BCB8BFD2C84CB8A005A2DCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BCB8C012C84CB8C005A2DCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BCB8C022C84CB8C005A2DCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BCB8C1B2C84CB8C005A2DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BCB8C1C2C84CB8C005A2DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BCB8C1E2C84CB8C005A2DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Orel_TodoApiFatch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Orel.Orel-TodoApiFatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BCB8C1F2C84CB8C005A2DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Orel_TodoApiFatch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Orel.Orel-TodoApiFatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8BCB8C212C84CB8C005A2DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Orel.Orel-TodoApiFatchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orel_TodoApiFatch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Orel_TodoApiFatch";
+			};
+			name = Debug;
+		};
+		8BCB8C222C84CB8C005A2DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Orel.Orel-TodoApiFatchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orel_TodoApiFatch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Orel_TodoApiFatch";
+			};
+			name = Release;
+		};
+		8BCB8C242C84CB8C005A2DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Orel.Orel-TodoApiFatchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Orel_TodoApiFatch;
+			};
+			name = Debug;
+		};
+		8BCB8C252C84CB8C005A2DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Orel.Orel-TodoApiFatchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Orel_TodoApiFatch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BCB8BEE2C84CB8A005A2DCA /* Build configuration list for PBXProject "Orel_TodoApiFatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BCB8C1B2C84CB8C005A2DCA /* Debug */,
+				8BCB8C1C2C84CB8C005A2DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BCB8C1D2C84CB8C005A2DCA /* Build configuration list for PBXNativeTarget "Orel_TodoApiFatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BCB8C1E2C84CB8C005A2DCA /* Debug */,
+				8BCB8C1F2C84CB8C005A2DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BCB8C202C84CB8C005A2DCA /* Build configuration list for PBXNativeTarget "Orel_TodoApiFatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BCB8C212C84CB8C005A2DCA /* Debug */,
+				8BCB8C222C84CB8C005A2DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BCB8C232C84CB8C005A2DCA /* Build configuration list for PBXNativeTarget "Orel_TodoApiFatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BCB8C242C84CB8C005A2DCA /* Debug */,
+				8BCB8C252C84CB8C005A2DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BCB8BEB2C84CB8A005A2DCA /* Project object */;
+}
